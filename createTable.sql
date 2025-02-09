@@ -1,0 +1,7 @@
+CREATE DATABASE MVC;
+USE MVC;
+CREATE TABLE items(
+    id INT PRIMARY KEY,
+    type VARCHAR(255) NOT NULL,
+    durability INT NOT NULL
+);
